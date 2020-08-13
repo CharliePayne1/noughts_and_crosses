@@ -5,12 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './board.component.html',
   styleUrls: ['./board.component.scss']
 })
+
 export class BoardComponent implements OnInit {
   squares: any[];
   xIsNext: boolean;
   winner: string;
-
-  constructor() { }
 
   ngOnInit = () => {
     this.newGame()
