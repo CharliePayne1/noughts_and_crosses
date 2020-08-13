@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "noughts-and-crosses-d1c6c": {
+      "hosting": {
+        "tictactoe": [
+          "noughts-and-crosses-d1c6c"
+        ]
+      }
+    }
+  }
+}
